@@ -44,10 +44,6 @@ impl Node {
     }
 }
 
-pub struct Leaf<T> {
-    v: Vec<T>,
-}
-
 #[cfg(test)]
 mod tests {
     use super::*;
